@@ -11,8 +11,8 @@ Valorant Discord bot
 
 ## How to setup discord bot
 
-1. Make a bot [here](https://discordapp.com/developers/applications/me) and grab the token
-   ![Image_Example1](https://i.imgur.com/iV2WWQz.png)
+Make a bot [here](https://discordapp.com/developers/applications/me) and grab the token
+![Image_Example1](https://i.imgur.com/iV2WWQz.png)
 
 ### How to install modules
 
@@ -23,6 +23,10 @@ python -m pip install -r requirements.txt
 for linux:
 python3 -m pip install -r requirements.txt
 ```
+
+### How to setup Webhooks
+
+click [here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to learn how to setup webhooks
 
 ### ENV
 

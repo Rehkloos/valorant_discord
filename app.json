@@ -13,10 +13,10 @@
             "description": "Create you're own discord bot here:\nhttps://discord.com/developers/applications/\n"
         },
         "vlr_news_webhook_url": {
-            "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks\nComma separate multiple. When using multiple it will post the **same** twitter feed to multiple text channels.\nExample: `https://discordapp.com/api/webhooks/123456/XXXX-XXXX`"
+            "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks\nExample: `https://discordapp.com/api/webhooks/123456/XXXX-XXXX`"
         },
         "vlr_matches_webhook_url": {
-            "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks\nComma separate multiple. When using multiple it will post the **same** twitter feed to multiple text channels.\nExample: `https://discordapp.com/api/webhooks/123456/XXXX-XXXX`"
+            "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks\nExample: `https://discordapp.com/api/webhooks/123456/XXXX-XXXX`"
         }
     }
 }

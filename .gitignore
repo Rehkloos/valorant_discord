@@ -7,8 +7,8 @@ graph.png
 config.ini
 lock.lock
 app.db
+*.JSON
 
-*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
