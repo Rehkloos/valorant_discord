@@ -17,6 +17,9 @@
         },
         "vlr_matches_webhook_url": {
             "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks\nExample: `https://discordapp.com/api/webhooks/123456/XXXX-XXXX`"
+        },
+        "patch_notes_webhook_url": {
+            "description": "Discord webhook URL https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks\nExample: `https://discordapp.com/api/webhooks/123456/XXXX-XXXX`"
         }
     }
 }

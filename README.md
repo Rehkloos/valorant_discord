@@ -67,7 +67,7 @@ Docker is an alternative to run the bot 24/7 and always reboot again whenever it
 
 ```
 # Build and run the Dockerfile
-docker-compose up -d --build
+docker-compose --env-file .env up -d --build
 
 # Tips on common commands
 docker-compose <command>
