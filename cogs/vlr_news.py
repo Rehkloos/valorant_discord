@@ -130,12 +130,12 @@ class VLR_News(commands.Cog, name="VLR News"):
             )
             embed.set_footer(text=f"{round_info} | {time_completed}")
             embed.add_field(
-                name="Teams",
+                name=f"__Teams__",
                 value=f"**{team1}**\n**{team2}**",
                 inline=True,
             )
             embed.add_field(
-                name="Result", value=f"**{score1}**\n**{score2}**", inline=True
+                name=f"__Result__", value=f"**{score1}**\n**{score2}**", inline=True
             )
             embed.set_thumbnail(url=f"{tournament_icon}")
 
