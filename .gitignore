@@ -8,7 +8,7 @@ config.ini
 lock.lock
 app.db
 *.JSON
-
+*.code-workspace
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
