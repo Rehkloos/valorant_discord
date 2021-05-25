@@ -6,6 +6,7 @@ RUN apk update && apk upgrade
 RUN apk add --no-cache git make build-base linux-headers
 WORKDIR /valorant_bot
 COPY . .
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 CMD ["python", "bot.py"]
