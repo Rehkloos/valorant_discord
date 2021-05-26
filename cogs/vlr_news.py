@@ -94,6 +94,8 @@ class VLR_News(commands.Cog, name="VLR News"):
         team2 = responseJSON["data"]["segments"][0]["team2"]
         score1 = responseJSON["data"]["segments"][0]["score1"]
         score2 = responseJSON["data"]["segments"][0]["score2"]
+        flag1 = responseJSON["data"]["segments"][0]["flag1"]
+        flag2 = responseJSON["data"]["segments"][0]["flag2"]
         time_completed = responseJSON["data"]["segments"][0]["time_completed"]
         round_info = responseJSON["data"]["segments"][0]["round_info"]
         tournament_name = responseJSON["data"]["segments"][0]["tournament_name"]
@@ -131,7 +133,7 @@ class VLR_News(commands.Cog, name="VLR News"):
             embed.set_footer(text=f"{round_info} | {time_completed}")
             embed.add_field(
                 name=f"__Teams__",
-                value=f"**{team1}**\n**{team2}**",
+                value=f":{flag1}: **{team1}**\n:{flag2}: **{team2}**",
                 inline=True,
             )
             embed.add_field(
